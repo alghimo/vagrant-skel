@@ -1,0 +1,15 @@
+{
+    "name": "vagrant-skel/global-deps",
+    "license": "MIT",
+    "type": "project",
+    "description": "Add global dependencies here. They'll be added to the box",
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*",
+        "squizlabs/php_codesniffer": "1.*",
+        "phpmd/phpmd" : "@stable",
+        "fabpot/php-cs-fixer": "1.*"
+    }
+}
